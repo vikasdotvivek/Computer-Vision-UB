@@ -1,0 +1,635 @@
+{
+  "generator": "repository-static-triage",
+  "version": "1.0",
+  "repository": "vikasdotvivek/Computer-Vision-UB",
+  "revision": "3c8858a03426f465e183104efaa851fba87c0e1d",
+  "tracked_files": 152,
+  "scanned": [
+    {
+      "path": "Project 1/scripts/task1.py",
+      "lines": 38,
+      "bytes": 1728
+    },
+    {
+      "path": "Project 1/scripts/task2.py",
+      "lines": 159,
+      "bytes": 4831
+    },
+    {
+      "path": "Project 1/scripts/task3.py",
+      "lines": 42,
+      "bytes": 1269
+    },
+    {
+      "path": "Project 2/scripts/task1.py",
+      "lines": 79,
+      "bytes": 3064
+    },
+    {
+      "path": "Project 2/scripts/task2.py",
+      "lines": 103,
+      "bytes": 3388
+    },
+    {
+      "path": "Project 2/scripts/task3.py",
+      "lines": 244,
+      "bytes": 8490
+    },
+    {
+      "path": "Project 2/scripts/task3_4.py",
+      "lines": 98,
+      "bytes": 2204
+    },
+    {
+      "path": "Project 3/scripts/task1.py",
+      "lines": 78,
+      "bytes": 2307
+    },
+    {
+      "path": "Project 3/scripts/task2.py",
+      "lines": 191,
+      "bytes": 5196
+    },
+    {
+      "path": "Project 3/scripts/task3.py",
+      "lines": 185,
+      "bytes": 6014
+    }
+  ],
+  "skipped": [
+    {
+      "path": ".DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": ".github/workflows/code-improvement-review.yml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/.DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/Project Problem Statement.pdf",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "Project 1/Project Report.pdf",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "Project 1/output_images/octave1DoG12.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1DoG23.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1DoG34.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1DoG45.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1KeyPointDetection1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1KeyPointDetection2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1sigma1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1sigma2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1sigma3.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1sigma4.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave1sigma5.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2DoG12.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2DoG23.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2DoG34.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2DoG45.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2KeyPointDetection1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2KeyPointDetection2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2sigma1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2sigma2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2sigma3.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2sigma4.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave2sigma5.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3DoG12.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3DoG23.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3DoG34.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3DoG45.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3KeyPointDetection1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3KeyPointDetection2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3sigma1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3sigma2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3sigma3.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3sigma4.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave3sigma5.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4DoG12.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4DoG23.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4DoG34.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4DoG45.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4KeyPointDetection1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4KeyPointDetection2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4sigma1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4sigma2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4sigma3.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4sigma4.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/octave4sigma5.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/task1_gx.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/task1_gy.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/task3test1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/task3test2.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/output_images/task3test3.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/.DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task1.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/README.txt",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_10.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_3.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_4.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_5.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_6.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_8.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/neg_9.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_10.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_11.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_12.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_13.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_14.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_15.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_3.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_4.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_5.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_6.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_7.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_8.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/pos_9.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/resources/task3/template.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 1/scripts/.DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/.DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/Project Problem Statement.pdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/Project Report.pdf",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "Project 2/output_images/task1_matches.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task1_matches_knn.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task1_pano.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task1_sift1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task1_sift2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_disparity.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_epi_left.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_epi_right.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_matches_knn.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_sift1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task2_sift2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_baboon_10.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_baboon_20.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_baboon_3.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_baboon_5.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_iter1_a.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_iter1_b.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_iter2_a.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/output_images/task3_iter2_b.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/resources/baboon.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/resources/mountain1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/resources/mountain2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/resources/tsucuba_left.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 2/resources/tsucuba_right.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/Project Problem Statement.pdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/Project Report.pdf",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "Project 3/output_images/.DS_Store",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/res_bound1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/res_bound2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/res_noise1.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/res_noise2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.1_point_detection.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.2_point_detection_thresholded.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.3_optimal_threshold.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.4_segment.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.5_segment_morphed.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.6_box.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task2.7_segment_box.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.1_edge.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.2_vertical_erosion.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.3_diagonal_erosion.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.4_vertical_hough_space.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.5_diagonal_hough_space.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.6_vertical_hough_image.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.7_diagonal_hough_image.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.8_hough_vertical.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/output_images/task3.9_hough_diagonal.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/META-INF/plugin.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/hough.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/noise.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/point.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/point2.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/resources/segment.jpg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "Project 3/scripts/__pycache__/task1.cpython-36.pyc",
+      "reason": "generated/vendor/review path"
+    },
+    {
+      "path": "README.md",
+      "reason": "non-source format; content not audited"
+    }
+  ],
+  "manifests": [],
+  "conventional_test_paths": [],
+  "findings": [],
+  "total_findings": 0,
+  "findings_omitted": 0,
+  "execution": "No repository code, tests, builds or hardware were executed."
+}
